@@ -10,17 +10,46 @@
   </defs>
   <rect width="1200" height="340" fill="url(#bg)"/>
   <rect width="1200" height="340" fill="url(#grid)"/>
-  <text x="60" y="140" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="84" fill="#ff8200">VTLOsh0d_</text>
-  <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">Client Shodan : toutes les requêtes, une seule app.</text>
-  <text x="62" y="228" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Dorks · filtres · navigateur intégré · guide animé</text>
-  <rect x="62" y="258" width="400" height="38" rx="19" fill="#000" stroke="#ff8200" stroke-opacity="0.5"/>
-  <circle cx="84" cy="277" r="6" fill="#ff8200"/>
-  <text x="100" y="283" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="16" fill="#ffc98c">Android · Web (PC) · 128+ dorks</text>
+  <text x="60" y="110" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="72" fill="#ff8200">VTLOsh0d_<animate attributeName="opacity" values="1;0.55;1" dur="2s" repeatCount="indefinite"/></text>
+  <text x="62" y="146" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="16" fill="#e0954a">GUIDE · Android · Web (PC) · 128+ dorks</text>
   <g transform="translate(860,40)">
     <rect width="270" height="250" fill="none" stroke="#ff8200" stroke-opacity="0.45"/>
     <path d="M90 0V250M180 0V250M0 83H270M0 167H270" stroke="#ff8200" stroke-opacity="0.3"/>
-    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="64" fill="#ff8200">&#x2207;</text>
-    <text x="135" y="200" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="40" fill="#ff8200">TLO</text>
   </g>
+  <g opacity="1">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.18;0.2;1" dur="25s" repeatCount="indefinite"/>
+    <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">Bienvenue sur VTLOsh0d_</text>
+    <text x="62" y="222" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Client Shodan : lancez tous les types de requêtes du</text><text x="62" y="248" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">cheat-sheet et explorez les résultats depuis votre</text><text x="62" y="274" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">navigateur.</text>
+    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="64" fill="#ff8200" transform="translate(860,40)">∇</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.22;0.38;0.4;1" dur="25s" repeatCount="indefinite"/>
+    <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">1 · Votre clé API</text>
+    <text x="62" y="222" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Collez votre clé API Shodan dans l'app. Elle reste sur</text><text x="62" y="248" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">votre appareil et n'est envoyée qu'à api.shodan.io.</text>
+    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="96" fill="#ff8200" transform="translate(860,40)">1</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.42;0.58;0.6;1" dur="25s" repeatCount="indefinite"/>
+    <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">2 · Lancer une recherche</text>
+    <text x="62" y="222" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Touchez un dork, ou tapez votre propre requête, puis</text><text x="62" y="248" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">lancez. Les résultats s'affichent avec pagination.</text>
+    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="96" fill="#ff8200" transform="translate(860,40)">2</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.62;0.78;0.8;1" dur="25s" repeatCount="indefinite"/>
+    <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">3 · Filtrer</text>
+    <text x="62" y="222" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Affinez par pays, ville, organisation, port, produit, OS</text><text x="62" y="248" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">ou type d'appareil. Les filtres s'ajoutent à chaque</text><text x="62" y="274" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">recherche.</text>
+    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="96" fill="#ff8200" transform="translate(860,40)">3</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.8;0.82;1" dur="25s" repeatCount="indefinite"/>
+    <text x="62" y="190" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="26" fill="#ffc98c">4 · Ouvrir un résultat</text>
+    <text x="62" y="222" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">Touchez « Open » sur un résultat pour l'ouvrir dans le</text><text x="62" y="248" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="18" fill="#e0954a">navigateur intégré, avec le User-Agent de votre choix.</text>
+    <text x="135" y="140" text-anchor="middle" font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="96" fill="#ff8200" transform="translate(860,40)">4</text>
+  </g>
+  <circle cx="62" cy="318" r="5" fill="#ff8200" opacity="1"><animate attributeName="opacity" values="1;1;0.25;0.25" keyTimes="0;0.2;0.2001;1" dur="25s" repeatCount="indefinite"/></circle>
+  <circle cx="84" cy="318" r="5" fill="#ff8200" opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1;0.25;0.25" keyTimes="0;0.2;0.2001;0.4;0.4001;1" dur="25s" repeatCount="indefinite"/></circle>
+  <circle cx="106" cy="318" r="5" fill="#ff8200" opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1;0.25;0.25" keyTimes="0;0.4;0.4001;0.6;0.6001;1" dur="25s" repeatCount="indefinite"/></circle>
+  <circle cx="128" cy="318" r="5" fill="#ff8200" opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1;0.25;0.25" keyTimes="0;0.6;0.6001;0.8;0.8001;1" dur="25s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="318" r="5" fill="#ff8200" opacity="0.25"><animate attributeName="opacity" values="0.25;0.25;1;1" keyTimes="0;0.8;0.8001;1" dur="25s" repeatCount="indefinite"/></circle>
   <text x="1130" y="322" text-anchor="end" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="13" fill="#e0954a">VTLO</text>
 </svg>
